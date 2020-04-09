@@ -6,6 +6,6 @@ let candyTypes = [["Fruit roll ups", "Life Savers", "Skittles"], ["Hersheys", "C
 
 for (i = 0; i < candies.length; i++) {
     for (j = 0; j < candyTypes[i].length; j++) {
+        console.log(`${candies[i]}: ${candTypes[i][j]}`);
     }
-
 }
